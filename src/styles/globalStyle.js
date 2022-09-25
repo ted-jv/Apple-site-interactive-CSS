@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+// import '../App.css';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -8,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     box-sizing: border-box;
+    /* font-family: 'Noto Sans'; */
   }
 `;
 
